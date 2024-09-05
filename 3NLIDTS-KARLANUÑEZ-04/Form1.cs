@@ -17,14 +17,6 @@ namespace _3NLIDTS_KARLANUÑEZ_04
         {
             InitializeComponent();
         }
-
-
-        private void btnguardar_Click(object sender, EventArgs e)
-        {
-           
-
-        }
-
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             //Limpiar tbt rbt
@@ -75,17 +67,7 @@ namespace _3NLIDTS_KARLANUÑEZ_04
                 MessageBox.Show("Datos Guardados by: \n\n" + datos, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-            //private void btnCancelar_Click(object sender, EventArgs e)
-            {
-                //Limpiar tbt rbt
-                //tbtNombre.Clear();
-                //tbtApellido.Clear();
-                //tbtTelefono.Clear();
-                //tbtEdad.Clear();
-                //tbtEstatura.Clear();
-                //rbtMasculino.Checked = false;
-                //   rbtFemenino.Checked = false;
-            }
+           
         }
     }
 }

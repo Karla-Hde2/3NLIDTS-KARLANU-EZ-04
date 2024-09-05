@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tbtNombre = new System.Windows.Forms.TextBox();
             this.tbtApellido = new System.Windows.Forms.TextBox();
             this.tbtTelefono = new System.Windows.Forms.TextBox();
@@ -84,6 +85,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
+            this.lblNombre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblNombre.Location = new System.Drawing.Point(55, 43);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
@@ -93,6 +95,7 @@
             // lblApellidos
             // 
             this.lblApellidos.AutoSize = true;
+            this.lblApellidos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblApellidos.Location = new System.Drawing.Point(55, 78);
             this.lblApellidos.Name = "lblApellidos";
             this.lblApellidos.Size = new System.Drawing.Size(49, 13);
@@ -102,6 +105,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(55, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
@@ -111,6 +115,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(55, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 13);
@@ -120,6 +125,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(55, 196);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
@@ -128,9 +134,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.rbtFemenino);
             this.groupBox1.Controls.Add(this.rbtMasculino);
-            this.groupBox1.Location = new System.Drawing.Point(344, 40);
+            this.groupBox1.Location = new System.Drawing.Point(518, 40);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(187, 125);
             this.groupBox1.TabIndex = 10;
@@ -161,7 +168,7 @@
             // 
             // bttguarda
             // 
-            this.bttguarda.Location = new System.Drawing.Point(383, 174);
+            this.bttguarda.Location = new System.Drawing.Point(555, 174);
             this.bttguarda.Name = "bttguarda";
             this.bttguarda.Size = new System.Drawing.Size(116, 62);
             this.bttguarda.TabIndex = 11;
@@ -171,7 +178,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(383, 253);
+            this.btnCancelar.Location = new System.Drawing.Point(557, 259);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(116, 62);
             this.btnCancelar.TabIndex = 12;
@@ -184,7 +191,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(640, 347);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(796, 498);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.bttguarda);
             this.Controls.Add(this.groupBox1);
